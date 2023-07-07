@@ -16,8 +16,10 @@ docker build -t server .
 docker run -it --network host -v /root/receber:/root/receber server:latest
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 Imagens disponiveis no dockerhub por meio de:
 
 docker pull antonioentringer/client:latest
+
 docker pull antonioentringer/server:latest
 
