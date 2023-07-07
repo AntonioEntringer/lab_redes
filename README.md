@@ -5,12 +5,14 @@ No diretório desejado faça download cliente na maquina que seja desejado envia
 Execute os comando para construir e executar o docker
 
 docker build -t client .
+
 docker run --network host client:latest
 
 No diretório desejado faça download server na maquina que seja desejado receber o arquivo 
 Execute os comando para construir e executar o docker
 
 docker build -t server .
+
 docker run -it --network host -v /root/receber:/root/receber server:latest
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
